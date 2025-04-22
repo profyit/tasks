@@ -1,0 +1,8 @@
+.dashboard-card, .form-card { margin-bottom: 20px; }
+mat-form-field { width: 100%; margin-bottom: 10px; }
+.loading-indicator { display: flex; flex-direction: column; align-items: center; justify-content: center; padding: 20px; color: grey; }
+.error-message mat-card { background-color: #f8d7da; color: #721c24; border-color: #f5c6cb; margin-bottom: 15px; }
+.submit-message { padding: 10px; margin-bottom: 15px; border-radius: 4px; text-align: center; }
+.submit-message.success { background-color: #d4edda; color: #155724; border: 1px solid #c3e6cb; }
+.submit-message.error { background-color: #f8d7da; color: #721c24; border: 1px solid #f5c6cb; }
+button[mat-raised-button] { margin-top: 10px; }

@@ -1,0 +1,19 @@
+.task-form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px; /* Add some space between form fields */
+}
+
+mat-form-field {
+  width: 100%;
+}
+
+.task-completed-checkbox {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+/* Ensure dialog actions have space */
+mat-dialog-actions {
+    padding-top: 15px;
+}
